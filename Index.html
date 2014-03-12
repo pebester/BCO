@@ -17,6 +17,8 @@
 			<header id="Header">
 				<h1>Header</h>
 			</header>
+						
+			<!-- Main Menu -->
 			<div clalass="main">
 				<nav id="cbp-hrmenu" class="cbp-hrmenu">
 					<ul>
@@ -358,6 +360,9 @@
 				</nav>
 			</div>
 		</div>
+		
+		<!-- End Main Menu -->
+		
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 		<script src="js/cbpHorizontalMenu.min.js"></script>
 		<script>
@@ -365,28 +370,32 @@
 				cbpHorizontalMenu.init();
 			});
 		</script>	
-	 <div id="contentContainer" class="clearfix">
-			<nav id="LeftNav">
-				<p>Left Nav</p>
-			</nav>
-
-  		<section id="pageSection">
-			<header class="sectionHeader">
-				<p>SectionHeader</p>
-			</header>
+	 
+		<div id="maincontainer">
+			<div id="leftcontainer">
+				<nav id="LeftNav">
+					<p>Left Nav</p>
+				</nav>
+			</div>
+			
+			<div id="rightcontainer">
+				<section id="pageSection">
+					<header id="sectionHeader">
+						<p>SectionHeader</p>
+					</header>
 				
-			<article class="sectionArticle">
-				<p>Section Artical</p>
-			</article>
+					<article id="sectionArticle">
+						<p>Section Artical</p>
+					</article>
 				
-			<footer class="sectionFooter">
-				<p>sectionfooter</p>
-			</footer>
-		</section>
-
- 			
-	</div>
-		<footer id="Footer">
+					<footer id="sectionFooter">
+						<p>sectionfooter</p>
+					</footer>
+				</section>
+			</div>
+ 		</div>	
+	
+		<footer class="footer">
 			<h1>Footer</h1>
 		</footer>
 	</div>

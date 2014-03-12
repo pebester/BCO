@@ -14,6 +14,41 @@
 
 body, html { font-size: 100%; 	padding: 0; margin: 0;}
 
+
+#maincontainer {
+  width: 100%;
+  overflow: hidden;
+  background: eee;
+}
+
+#leftcontainer {
+    width:20%;
+    margin:0;
+    float: left;
+	padding: 10px;
+	border-right: 1px solid #7a96a7;
+	margin-bottom: -1000px;
+	padding-bottom: 1000px;
+}
+
+#rightcontainer {
+  float: left;
+  width:75%;
+  margin-top: 0;
+  padding: 10px; 
+  margin-bottom: -1000px;
+  padding-bottom: 1000px;
+  }
+
+  .footer{
+  text-align: center;
+  border-top: 4px solid #7a96a7;
+  border-bottom: 4px solid #7a96a7;
+  background: #7a96a7;
+ 
+} 
+  
+  
 /* Reset */
 *,
 *:after,
@@ -36,7 +71,7 @@ body, html { font-size: 100%; 	padding: 0; margin: 0;}
 
 body {
     font-family: 'Lato', Calibri, Arial, sans-serif;
-    color: #47a3da;
+    color: #000;
 }
 
 a {
@@ -95,7 +130,7 @@ a:hover {
 
 .container > header nav a:after {
 	content: attr(data-info);
-	color: #47a3da;
+	color: #000;
 	position: absolute;
 	width: 600%;
 	top: 120%;
@@ -110,7 +145,7 @@ a:hover {
 }
 
 .container > header nav a:hover {
-	background: #47a3da;
+	background: #000;
 }
 
 .icon-drop:before, 
@@ -125,7 +160,7 @@ a:hover {
 	font-weight: normal;
 	line-height: 2;
 	text-align: center;
-	color: #47a3da;
+	color: #000;
 	-webkit-font-smoothing: antialiased;
 	text-indent: 8000px;
 	padding-left: 8px;
@@ -142,4 +177,5 @@ a:hover {
 .icon-arrow-left:before {
 	content: "\f060";
 }
+
 
