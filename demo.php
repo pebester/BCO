@@ -165,42 +165,8 @@ if($_SESSION['msg'])
 ?>
 
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>A Cool Login System With PHP MySQL &amp jQuery | Tutorialzine demo</title>
-    
-    <link rel="stylesheet" type="text/css" href="demo.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="login_panel/css/slide.css" media="screen" />
-    
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
-    
-    <!-- PNG FIX for IE6 -->
-    <!-- http://24ways.org/2007/supersleight-transparent-png-in-ie6 -->
-    <!--[if lte IE 6]>
-        <script type="text/javascript" src="login_panel/js/pngfix/supersleight-min.js"></script>
-    <![endif]-->
-    
-    <script src="login_panel/js/slide.js" type="text/javascript"></script>
-    
-    <?php echo $script; ?>
-</head>
-
-<body>
 <?php error_reporting (E_ALL ^ E_NOTICE); ?>
-<!-- Panel -->
-<div id="toppanel">
-	<div id="panel">
-		<div class="content clearfix">
-			<div class="left">
-				<h1>The Sliding jQuery Panel</h1>
-				<h2>A register/login solution</h2>		
-				<p class="grey">You are free to use this login and registration system in you sites!</p>
-				<h2>A Big Thanks</h2>
-				<p class="grey">This tutorial was built on top of <a href="http://web-kreation.com/index.php/tutorials/nice-clean-sliding-login-panel-built-with-jquery" title="Go to site">Web-Kreation</a>'s amazing sliding panel.</p>
-			</div>
+
             
             
             <?php

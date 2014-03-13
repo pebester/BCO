@@ -15,10 +15,10 @@
 <body>
 	<div id="pageContainer">
 			<header id="Header">
-				
+				<script src="demo.php"></script>
 				<h1>Header</h>
 			</header>
-			<script src="demo.php"></script>			
+						
 			<!-- Main Menu -->
 			<div clalass="main">
 				<nav id="cbp-hrmenu" class="cbp-hrmenu">
