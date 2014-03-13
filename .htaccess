@@ -1,0 +1,28 @@
+## PARSE AS CGI
+AddHandler cgi-script .cgi .pl .spl
+ 
+## RUN PHP AS APACHE MODULE
+AddHandler application/x-httpd-php .php .htm
+ 
+## RUN PHP AS CGI
+AddHandler php-cgi .php .htm
+ 
+## CGI PHP WRAPPER FOR CUSTOM PHP.INI
+AddHandler phpini-cgi .php .htm
+Action phpini-cgi /cgi-bin/php-custom-ini.cgi
+ 
+## FAST-CGI SETUP WITH PHP-CGI WRAPPER FOR CUSTOM PHP.INI
+AddHandler fastcgi-script .fcgi
+AddHandler php-cgi .php .htm
+Action php-cgi /cgi-bin/php5-wrapper.fcgi
+ 
+## CUSTOM PHP CGI BINARY SETUP
+AddHandler php-cgi .php .htm
+Action php-cgi /cgi-bin/php.cgi
+ 
+## PROCESS SPECIFIC FILETYPES WITH CGI-SCRIPT
+Action image/gif /cgi-bin/img-create.cgi
+ 
+## CREATE CUSTOM HANDLER FOR SPECIFIC FILE EXTENSIONS
+AddHandler custom-processor .ssp
+Action custom-processor /cgi-bin/myprocessor.cgi

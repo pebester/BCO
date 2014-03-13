@@ -1,8 +1,4 @@
-<?php 
 
-define('INCLUDE_CHECK',true);
-require 'demo.php';
-?>
 
 <!doctype html>
 
@@ -23,13 +19,15 @@ require 'demo.php';
 	<div id="pageContainer">
 	
 			<header id="Header">
-				<?php echo "demo.php"; ?>
+				<?php 
+					require 'demo.php';
+				?>
 				
-				<h1>Header</h>
+				<h1>Header</h1>
 			</header>
 						
 			<!-- Main Menu -->
-			<div clalass="main">
+			<div class="main">
 				<nav id="cbp-hrmenu" class="cbp-hrmenu">
 					<ul>
 						<li>
@@ -368,8 +366,7 @@ require 'demo.php';
 						</li>
 					</ul>
 				</nav>
-			</div>
-		</div>
+			
 		
 		<!-- End Main Menu -->
 		
@@ -397,18 +394,52 @@ require 'demo.php';
 					<article id="sectionArticle">
 						<p>Section Artical</p>
 					</article>
-				
-					<footer id="sectionFooter">
-						<p>sectionfooter</p>
-					</footer>
 				</section>
 			</div>
- 		</div>	
+ 		</div>
+					<div id="subfooter">
+						<h3></h3>
+					</div>
+		</div>
+		</div>		
 	
 		<footer class="footer">
-			<h1>
-		<?php echo "It works!"; ?>
-		</h1>
+			<ul>
+				<li>
+					<p class="home">Home</p>
+					<a class="logo" href="#">Company Name <i>&copy; 2013</i></a>
+				</li>
+				<li>
+					<p class="services">Services</p>
+
+					<ul>
+						<li><a href="#">3D modeling</a></li>
+						<li><a href="#">Web development</a></li>
+						<li><a href="#">Mobile development</a></li>
+						<li><a href="#">Web &amp; Print Design</a></li>
+					</ul>
+				</li>
+				<li>
+					<p class="reachus">Reach us</p>
+
+					<ul>
+						<li><a href="#">Email</a></li>
+						<li><a href="#">Twitter</a></li>
+						<li><a href="#">Facebook</a></li>
+						<li>555-123456789</li>
+					</ul>
+				</li>
+				<li>
+					<p class="clients">Clients</p>
+
+					<ul>
+						<li><a href="#">Login Area</a></li>
+						<li><a href="#">Support Center</a></li>
+						<li><a href="#">FAQ</a></li>
+					</ul>
+				</li>
+			</ul>
 		</footer>
 	</div>
+		</div>
 </body>

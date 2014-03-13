@@ -1,3 +1,5 @@
+
+
 <!doctype html>
 
 <html lang="en">
@@ -13,9 +15,14 @@
 </head>
 
 <body>
+
 	<div id="pageContainer">
+	
 			<header id="Header">
-				<script src="demo.php"></script>
+				<?php 
+					require 'demo.php';
+				?>
+				
 				<h1>Header</h>
 			</header>
 						
@@ -397,7 +404,9 @@
  		</div>	
 	
 		<footer class="footer">
-			<h1>Footer</h1>
+			<h1>
+		<?php echo "It works!"; ?>
+		</h1>
 		</footer>
 	</div>
 </body>
