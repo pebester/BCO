@@ -59,6 +59,10 @@ body{
     float: left;
 	padding: 10px;
 	border-right: 1px solid #7a96a7;
+background: -webkit-linear-gradient(left, #99aebb , #f0f3f5); /* For Safari 5.1 to 6.0 */
+background: -o-linear-gradient(right, #99aebb, #f0f3f5); /* For Opera 11.1 to 12.0 */
+background: -moz-linear-gradient(right, #99aebb, #f0f3f5); /* For Firefox 3.6 to 15 */
+background: linear-gradient(to right, #99aebb, #f0f3f5); /* Standard syntax */ 
 	margin-bottom: -1000px;
 	padding-bottom: 1000px;
 	

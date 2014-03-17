@@ -37,7 +37,7 @@
 									<div>
 										<h4>Knives</h4>
 										<ul>
-											<li><a href="knives.php">Assisted Opening Knives</a></li>
+											<li><a href="assistedopeningknives.php">Assisted Opening Knives</a></li>
 											<li><a href="#">Automatic Knives</a></li>
 											<li><a href="#">Fantasy</a></li>
 											<li><a href="#">Fixed Blade Knives</a></li>
