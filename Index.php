@@ -37,8 +37,11 @@
 									<div>
 										<h4>Knives</h4>
 										<ul>
-											<li><a href="#">Assisted Opening Knives</a></li>
+										
+											<li><a href="http://localhost/BCO/knives.html">Assisted Opening Knives</a></li>
+											
 											<li><a href="#">Automatic Knives</a></li>
+											
 											<li><a href="#">Fantasy</a></li>
 											<li><a href="#">Fixed Blade Knives</a></li>
 											<li><a href="#">Folding Knives</a></li>
