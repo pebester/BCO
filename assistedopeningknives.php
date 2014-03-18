@@ -1,4 +1,9 @@
+<?php
 
+define('INCLUDE_CHECK',1);
+require "connect.php";
+
+?>
 
 <!doctype html>
 
@@ -6,7 +11,7 @@
 <head>
     <meta charset="utf-8"/>
     <title>BCO</title>
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="text/css" href="css/header.css">
 	<link rel="stylesheet" type="text/css" href="css/default.css" />
 	<link rel="stylesheet" type="text/css" href="css/component.css" />
 	<link rel="stylesheet" type="text/css" href="css/demo.css" />
@@ -14,6 +19,7 @@
 	
 	<script src="js/modernizr.custom.js"></script>
 	
+
 </head>
 
 <body>
@@ -372,18 +378,31 @@
 		
 		<!-- End Main Menu -->
 		
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-		<script src="js/cbpHorizontalMenu.min.js"></script>
-		<script>
-			$(function() {
-				cbpHorizontalMenu.init();
-			});
-		</script>	
-	 
+			<script type="text/javascript"src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+			<script type="text/javascript"src="js/cbpHorizontalMenu.min.js"></script>
+			<script>
+				$(function() {
+					cbpHorizontalMenu.init();
+				});
+			</script> 
+		
 		<div id="maincontainer">
 			<div id="leftcontainer">
 				<nav id="LeftNav">
-					<p>Left Nav</p>
+					<?php
+
+				$result = mysql_query("SELECT * FROM products");
+				while($row=mysql_fetch_assoc($result))
+				{
+					
+					echo '<div class="product"><img src="image/products/'.$row['img'].'" alt="'.htmlspecialchars($row['name']).'" width="128" height="128" class="pngfix" />';
+					echo '<class="product"><p><strong>'.$row['name'].'</strong></p>';
+					echo '<p class="descr">'.$row['description'].'</p>';
+					echo '<p><strong>price: $'.$row['price'].'</strong></p></div>';
+					
+				}
+
+			?>
 				</nav>
 			</div>
 			
@@ -394,11 +413,27 @@
 					</header>
 				
 					<article id="sectionArticle">
-					<?php 
-						require 'kifetest.php';
-					?>
-			
 					
+					<script src="http://code.jquery.com/jquery-1.9.0.js"></script>
+					<script src="http://code.jquery.com/jquery-migrate-1.2.1.js"></script>
+					<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.2/jquery-ui.min.js"></script>
+					<script type="text/javascript" src="js/jquery.simpletip-1.3.1.pack.js"></script>
+					<script type="text/javascript" src="js/tipscript.js"></script>
+		
+			<?php
+
+				$result = mysql_query("SELECT * FROM products");
+				while($row=mysql_fetch_assoc($result))
+				{
+					
+					echo '<div class="product"><img src="image/products/'.$row['img'].'" alt="'.htmlspecialchars($row['name']).'" width="128" height="128" class="pngfix" />';
+					echo '<class="product"><p><strong>'.$row['name'].'</strong></p>';
+					echo '<p class="descr">'.$row['description'].'</p>';
+					echo '<p><strong>price: $'.$row['price'].'</strong></p></div>';
+					
+				}
+
+			?>
 					</article>
 				</section>
 			</div>
