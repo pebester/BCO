@@ -59,11 +59,8 @@ body{
     float: left;
 	padding: 10px;
 	border-right: 1px solid #7a96a7;
-background: -webkit-linear-gradient(left, #99aebb , #f0f3f5); /* For Safari 5.1 to 6.0 */
-background: -o-linear-gradient(right, #99aebb, #f0f3f5); /* For Opera 11.1 to 12.0 */
-background: -moz-linear-gradient(right, #99aebb, #f0f3f5); /* For Firefox 3.6 to 15 */
-background: linear-gradient(to right, #99aebb, #f0f3f5); /* Standard syntax */ 
-	margin-bottom: -1000px;
+	background: #f0f3f5;
+
 	padding-bottom: 1000px;
 	
 }
@@ -258,11 +255,13 @@ footer{
 	position:relative;
 	z-index:-2;
 
-	background-color:#31353a;
-
+	background-color:#f0f3f5; /* Change color of footer color */
+	
+/* Remove if you decide not to have a Gradient footer background ------
 	background-image:-webkit-linear-gradient(top, #31353a, #2f3337);
 	background-image:-moz-linear-gradient(top, #31353a, #2f3337);
-	background-image:linear-gradient(top, #31353a, #2f3337);
+	background-image:linear-gradient(top, #31353a, #2f3337); 
+	---------*/
 }
 
 /* Set a width to the outermost UL and center it */
