@@ -1,13 +1,5 @@
 
-}
 
-.top-label{
-	background:url(image/label_bg.png) no-repeat;
-	display:inline-block;
-	margin-left:20px;
-	position:relative;
-	margin-bottom:-15px;
-}
 
 .label-txt{
 	background:url(image/label_bg.png) no-repeat top right;

@@ -173,7 +173,7 @@ if($_SESSION['msg'])
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>A Cool Login System With PHP MySQL &amp jQuery | Tutorialzine demo</title>
     
-    <link rel="stylesheet" type="text/css" href="demo.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="css/default.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="login_panel/css/slide.css" media="screen" />
     
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
