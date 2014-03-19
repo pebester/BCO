@@ -6,8 +6,7 @@
 <head>
     <meta charset="utf-8"/>
     <title>BCO</title>
-    <link rel="stylesheet" href="main.css">
-	<link rel="stylesheet" type="text/css" href="css/default.css" />
+    <link rel="stylesheet" type="text/css" href="css/default.css" />
 	<link rel="stylesheet" type="text/css" href="css/component.css" />
 	
 	<script src="js/modernizr.custom.js"></script>
@@ -18,13 +17,13 @@
 
 	<div id="pageContainer">
 	
-			<header id="Header">
+			<div class="header">
 				<?php 
 					require 'demo.php';
 				?>
 				
-				<h1>Header</h1>
-			</header>
+				<h1>header</h1>
+			</div>
 						
 			<!-- Main Menu -->
 			<div class="main">
@@ -213,35 +212,42 @@
 							<div class="cbp-hrsub">
 								<div class="cbp-hrsub-inner"> 
 									<div>
-										<h4>Utilities</h4>
+										<h4>Camping &amp; Backpacking</h4>
 										<ul>
-											<li><a href="#">Green Tree Pro</a></li>
-											<li><a href="#">Wobbler 3.0</a></li>
-											<li><a href="#">Coolkid</a></li>
+											<li><a href="#">Backpacks</a></li>
+											<li><a href="#">Cookware</a></li>
+											<li><a href="#">Coolers</a></li>
+											<li><a href="#">Hydration Systems</a></li>
+											<li><a href="#">Sleeping</a></li>
+											<li><a href="#">Stoves</a></li>
+											<li><a href="#">Tents</a></li>
 										</ul>
-										<h4>Education</h4>
+										<h4>Consumables</h4>
 										<ul>
-											<li><a href="#">Learn Thai</a></li>
-											<li><a href="#">Math Genius</a></li>
-											<li><a href="#">Chemokid</a></li>
-										</ul>
-									</div>
-									<div>
-										<h4>Professionals</h4>
-										<ul>
-											<li><a href="#">Success 1.0</a></li>
-											<li><a href="#">Moneymaker</a></li>
+											<li><a href="#">Consumables</a></li>
 										</ul>
 									</div>
 									<div>
-										<h4>Learning &amp; Games</h4>
+										<h4>Instruments &amp; Accessories</h4>
 										<ul>
-											<li><a href="#">Catch the Bullet</a></li>
-											<li><a href="#">Snoopydoo</a></li>
-											<li><a href="#">Fallen Angel</a></li>
-											<li><a href="#">Sui Maker</a></li>
-											<li><a href="#">Wave Master</a></li>
-											<li><a href="#">Golf Pro</a></li>
+											<li><a href="#">Instruments</a></li>
+											<li><a href="#">Outdoor Accessories</a></li>
+											<li><a href="#">Sling Shots</a></li>
+										</ul>
+									</div>
+									<div>
+										<h4>Optics</h4>
+										<ul>
+											<li><a href="#">Binoculars/Monoculars</a></li>
+											<li><a href="#">Optic Accessories</a></li>
+											<li><a href="#">Range Finders</a></li>
+											<li><a href="#">Scopes</a></li>
+										</ul>
+									</div>
+									<div>
+										<h4>Survival</h4>
+										<ul>
+											<li><a href="#">Survival</a></li>
 										</ul>
 									</div>
 								</div><!-- /cbp-hrsub-inner -->
@@ -252,35 +258,17 @@
 							<div class="cbp-hrsub">
 								<div class="cbp-hrsub-inner"> 
 									<div>
-										<h4>Utilities</h4>
+										<h4>Kitchen Cutlery Products</h4>
 										<ul>
-											<li><a href="#">Green Tree Pro</a></li>
-											<li><a href="#">Wobbler 3.0</a></li>
-											<li><a href="#">Coolkid</a></li>
+											<li><a href="#">Kitchen Knives</a></li>
+											<li><a href="#">Sets</a></li>
 										</ul>
-										<h4>Education</h4>
+										<h4>Kitchen Gadgets</h4>
 										<ul>
-											<li><a href="#">Learn Thai</a></li>
-											<li><a href="#">Math Genius</a></li>
-											<li><a href="#">Chemokid</a></li>
-										</ul>
-									</div>
-									<div>
-										<h4>Professionals</h4>
-										<ul>
-											<li><a href="#">Success 1.0</a></li>
-											<li><a href="#">Moneymaker</a></li>
-										</ul>
-									</div>
-									<div>
-										<h4>Learning &amp; Games</h4>
-										<ul>
-											<li><a href="#">Catch the Bullet</a></li>
-											<li><a href="#">Snoopydoo</a></li>
-											<li><a href="#">Fallen Angel</a></li>
-											<li><a href="#">Sui Maker</a></li>
-											<li><a href="#">Wave Master</a></li>
-											<li><a href="#">Golf Pro</a></li>
+											<li><a href="#">Kitchen Accessories</a></li>
+											<li><a href="#">Kitchen Sharpeners</a></li>
+											<li><a href="#">Kitchen Storage</a></li>
+											<li><a href="#">Shears</a></li>
 										</ul>
 									</div>
 								</div><!-- /cbp-hrsub-inner -->
@@ -291,35 +279,28 @@
 							<div class="cbp-hrsub">
 								<div class="cbp-hrsub-inner"> 
 									<div>
-										<h4>Utilities</h4>
+										<h4>Gifts</h4>
 										<ul>
-											<li><a href="#">Green Tree Pro</a></li>
-											<li><a href="#">Wobbler 3.0</a></li>
-											<li><a href="#">Coolkid</a></li>
+											<li><a href="#">Gifts</a></li>
+											<li><a href="#">Flasks, Wallets, Cigar Cutters</a></li>
+											<li><a href="#">Pen</a></li>
 										</ul>
-										<h4>Education</h4>
+										<h4>Grooming &amp; Manicure</h4>
 										<ul>
-											<li><a href="#">Learn Thai</a></li>
-											<li><a href="#">Math Genius</a></li>
-											<li><a href="#">Chemokid</a></li>
+											<li><a href="#">Grooming Produts</a></li>
 										</ul>
 									</div>
 									<div>
-										<h4>Professionals</h4>
+										<h4>Lighter Products</h4>
 										<ul>
-											<li><a href="#">Success 1.0</a></li>
-											<li><a href="#">Moneymaker</a></li>
+											<li><a href="#">Lighter Accessories</a></li>
+											<li><a href="#">Lighters</a></li>
 										</ul>
 									</div>
 									<div>
-										<h4>Learning &amp; Games</h4>
+										<h4>Books &amp; Videos</h4>
 										<ul>
-											<li><a href="#">Catch the Bullet</a></li>
-											<li><a href="#">Snoopydoo</a></li>
-											<li><a href="#">Fallen Angel</a></li>
-											<li><a href="#">Sui Maker</a></li>
-											<li><a href="#">Wave Master</a></li>
-											<li><a href="#">Golf Pro</a></li>
+											<li><a href="#">Books &amp; Videos</a></li>
 										</ul>
 									</div>
 								</div><!-- /cbp-hrsub-inner -->
@@ -328,39 +309,7 @@
 						<li>
 							<a href="#">Shop By Brand</a>
 							<div class="cbp-hrsub">
-								<div class="cbp-hrsub-inner"> 
-									<div>
-										<h4>Utilities</h4>
-										<ul>
-											<li><a href="#">Green Tree Pro</a></li>
-											<li><a href="#">Wobbler 3.0</a></li>
-											<li><a href="#">Coolkid</a></li>
-										</ul>
-										<h4>Education</h4>
-										<ul>
-											<li><a href="#">Learn Thai</a></li>
-											<li><a href="#">Math Genius</a></li>
-											<li><a href="#">Chemokid</a></li>
-										</ul>
-									</div>
-									<div>
-										<h4>Professionals</h4>
-										<ul>
-											<li><a href="#">Success 1.0</a></li>
-											<li><a href="#">Moneymaker</a></li>
-										</ul>
-									</div>
-									<div>
-										<h4>Learning &amp; Games</h4>
-										<ul>
-											<li><a href="#">Catch the Bullet</a></li>
-											<li><a href="#">Snoopydoo</a></li>
-											<li><a href="#">Fallen Angel</a></li>
-											<li><a href="#">Sui Maker</a></li>
-											<li><a href="#">Wave Master</a></li>
-											<li><a href="#">Golf Pro</a></li>
-										</ul>
-									</div>
+								<div class="cbp-hrsub-inner"> 								
 								</div><!-- /cbp-hrsub-inner -->
 							</div><!-- /cbp-hrsub -->					
 						</li>

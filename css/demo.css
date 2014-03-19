@@ -1,20 +1,9 @@
 
 
 
-.label-txt{
-	background:url(image/label_bg.png) no-repeat top right;
-	display:inline-block;
-	font-size:10px;
-	height:36px;
-	margin-left:10px;
-	padding:12px 15px 0 5px;
-	text-transform:uppercase;
-}
 
-.content-area{
-	background:url(image/container_top.png) no-repeat #fcfcfc;
-	padding:15px 20px 0 20px;
-}
+
+
 
 .content{
 	padding:10px;

@@ -171,7 +171,7 @@ if($_SESSION['msg'])
 
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>A Cool Login System With PHP MySQL &amp jQuery | Tutorialzine demo</title>
+<title></title>
     
     <link rel="stylesheet" type="text/css" href="css/default.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="login_panel/css/slide.css" media="screen" />

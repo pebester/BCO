@@ -3,7 +3,7 @@
 --------------------------*/
 
 
-body,h1,h2,h3,p,quote,small,form,input,ul,li,ol,label{
+*{
 	/* The reset rules */
 	margin:0px;
 	padding:0px;
@@ -32,7 +32,7 @@ body{
 	color: #5e5b64;
 	/*color:#555555;*/
 	font-size:13px;
-	background: #eeeeee;
+	background: #fff; /* Background for Header */
 	font-family:Arial, Helvetica, sans-serif;
 	width: 100%;
 	/* Create a page-wide stacking context 
@@ -42,6 +42,13 @@ body{
 	z-index:0;
 
 	
+}
+
+.header {
+	margin-top:0px;
+	padding:60px;
+	background: #fff;
+
 }
 
 .main p{
@@ -57,10 +64,12 @@ body{
 	position:relative;
 	z-index:1;
 	background-color: #fff;
-	padding: 120px 0 600px;
+	padding: 0px 0 600px;
 	box-shadow: 0 3px 3px rgba(0,0,0,0.2);
 
 }
+
+
 
 #maincontainer {
   width: 100%;
@@ -93,7 +102,7 @@ body{
 h1{
 	color:#000;
 	text-align: center;
-	padding-bottom:300px;
+	
 	position:relative;
 	font-size:28px;
 	font-weight:bold;
@@ -275,6 +284,28 @@ a:hover {
 .icon-arrow-left:before {
 	content: "\f060";
 }
+
+.tooltip{
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 3;
+	display: none;
+
+	background-color:#666666;
+	border:1px solid #666666;
+	color:#fcfcfc;
+
+	padding:10px;
+	
+	-moz-border-radius:12px;
+	-khtml-border-radius: 12px;
+	-webkit-border-radius: 12px;
+	border-radius:12px;
+	
+	}
+	
+
 /*-------------------------
 	The footer
 --------------------------*/

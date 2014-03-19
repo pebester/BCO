@@ -11,10 +11,10 @@ require "connect.php";
 <head>
     <meta charset="utf-8"/>
     <title>BCO</title>
-    <link rel="stylesheet" href="text/css" href="css/header.css">
+    <!--<link rel="stylesheet" href="text/css" href="css/header.css">-->
 	<link rel="stylesheet" type="text/css" href="css/default.css" />
 	<link rel="stylesheet" type="text/css" href="css/component.css" />
-	<link rel="stylesheet" type="text/css" href="css/demo.css" />
+	<!--<link rel="stylesheet" type="text/css" href="css/demo.css" />-->
 	
 	
 	<script src="js/modernizr.custom.js"></script>
@@ -26,13 +26,13 @@ require "connect.php";
 
 	<div id="pageContainer">
 	
-			<header id="Header">
+			<div class="header">
 				<?php 
 					require 'demo.php';
 				?>
 				
-				<h1>Header</h1>
-			</header>
+				<h1>header</h1>
+			</div>
 						
 			<!-- Main Menu -->
 			<div class="main">
